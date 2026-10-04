@@ -845,71 +845,58 @@ h1 span {
   text-align: left;
   font: inherit;
   cursor: pointer;
+
+  color: #9aa3b2;
+  background: transparent;
+
+  transition: background 0.18s ease, color 0.18s ease;
 }
 
 .nav-item:hover {
-  background: #17191f;
+  background: rgba(124, 92, 255, 0.12);
+  color: #c4b8ff;
 }
 
 .nav-item.active {
-  background: #202126;
+  background: rgba(124, 92, 255, 0.18);
+  color: #d7ceff;
+  box-shadow: inset 3px 0 0 #7c5cff;
 }
+
 .application-actions {
   display: flex;
   gap: 8px;
   margin-left: auto;
 }
 
-.edit-button,
+.edit-button {
+  border: 1px solid rgba(245, 180, 60, 0.25);
+  background: rgba(245, 180, 60, 0.08);
+  color: #f2bd55;
+  cursor: pointer;
+  padding: 6px 11px;
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.edit-button:hover {
+  background: rgba(245, 180, 60, 0.18);
+  color: #ffd477;
+}
+
 .delete-button {
-  border: none;
-  background: transparent;
+  border: 1px solid rgba(255, 80, 80, 0.25);
+  background: rgba(255, 80, 80, 0.08);
+  color: #ff8585;
   cursor: pointer;
-  padding: 6px 10px;
-  border-radius: 8px;
-  font-size: 13px;
+  padding: 6px 11px;
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: 600;
 }
 
-.edit-button:hover,
 .delete-button:hover {
-  background: #f1f1f1;
+  background: rgba(255, 80, 80, 0.18);
+  color: #ffaaaa;
 }
-
-
-.logout-button {
-  width: 100%;
-  margin-top: 12px;
-  padding: 10px 12px;
-  border: 1px solid #e5e5e5;
-  border-radius: 10px;
-  background: transparent;
-  color: #666;
-  font-size: 13px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.logout-button:hover {
-  background: #f5f5f5;
-  color: #111;
-}
-
-/* Application table alignment */
-
-.application-header,
-.application-row {
-  display: grid;
-  grid-template-columns: 2fr 2fr 1fr 1.2fr 1.2fr;
-  align-items: center;
-}
-
-.application-header span:nth-child(4),
-.application-row .application-date {
-  text-align: center;
-}
-
-.application-header span:nth-child(5),
-.application-row .salary-cell {
-  text-align: right;
-}
- 
