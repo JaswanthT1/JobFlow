@@ -921,3 +921,31 @@ border-color: #3a404c;
 color: #f5f7fa;
 transform: translateY(-1px);
 }
+
+.filter-button {
+padding: 9px 16px;
+border: 1px solid #2a2e38;
+border-radius: 8px;
+background: #171a20;
+color: #9aa1af;
+font-size: 14px;
+font-weight: 500;
+cursor: pointer;
+transition: all 0.2s ease;
+}
+
+.filter-button:hover {
+background: #242832;
+border-color: #3a404c;
+color: #f5f7fa;
+}
+
+.filter-button.active {
+background: #261f4d;
+border-color: #8b5cf6;
+color: #f5f7fa;
+}
+
+.filter-button:focus {
+outline: none;
+}
