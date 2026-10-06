@@ -34,3 +34,6 @@ __pycache__/
 # Virtual environment
 venv/
 backend/venv/
+
+# Database backups
+*.sql
