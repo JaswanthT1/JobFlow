@@ -152,7 +152,6 @@ JobFlow/
 │   ├── models.py
 │   ├── schemas.py
 │   ├── requirements.txt
-│   └── .env
 │
 ├── frontend/
 │   ├── src/
