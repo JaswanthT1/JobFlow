@@ -252,6 +252,7 @@ Frontend:
 ```text
 http://localhost:5173
 ```
+
 ## Deployment
 
 JobFlow is deployed using:
@@ -263,6 +264,7 @@ JobFlow is deployed using:
 The React frontend communicates with the deployed FastAPI backend through HTTP/JSON requests.
 
 Production CORS configuration allows the deployed frontend to securely communicate with the backend API.
+
 
 ## Security
 
