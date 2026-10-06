@@ -2,6 +2,14 @@
 
 A full-stack job application tracking platform that helps job seekers organize applications, track interview progress, and manage offers in one place.
 
+## 🚀 Live Demo
+
+**Frontend:** https://job-flow-brown.vercel.app/
+
+**Backend API:** https://jobflow-production-3aac.up.railway.app/
+
+**API Documentation:** https://jobflow-production-3aac.up.railway.app/docs
+
 ## Overview
 
 JobFlow was built to solve a simple problem: job searching becomes difficult to manage when applications, interview stages, companies, and offers are scattered across different places.
