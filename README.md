@@ -16,6 +16,29 @@ JobFlow was built to solve a simple problem: job searching becomes difficult to 
 
 The application provides a centralized dashboard where users can securely manage their job applications and track their progress.
 
+## 📸 Screenshots
+
+### Login
+
+![JobFlow Login](screenshots/login.png)
+
+### Dashboard
+
+![JobFlow Dashboard](screenshots/dashboard.png)
+
+### Applications
+
+![JobFlow Applications](screenshots/applications.png)
+
+### Interviews
+
+![JobFlow Interviews](screenshots/interviews.png)
+
+### Application Form
+
+![JobFlow Application Form](screenshots/application-form.png)
+
+
 ## Features
 
 * 🔐 User registration and JWT authentication
